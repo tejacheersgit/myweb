@@ -30,7 +30,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: 'target/*'
+    SourceFolder: '/home/vsts/work/1/s/target/*'
     Contents: '**'
     TargetFolder: '$(build.artifactstagingdirectory)'
 
